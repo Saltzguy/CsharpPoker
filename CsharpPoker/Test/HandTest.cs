@@ -97,7 +97,7 @@ namespace CsharpPoker.Test
             hand.Draw(new Card(CardValue.Queen, CardSuit.Spades));
             hand.Draw(new Card(CardValue.King, CardSuit.Spades));
             hand.Draw(new Card(CardValue.Ace, CardSuit.Spades));
-
+            
             hand.GetHandRank().Should().Be(HandRank.RoyalFlush);
 
         }

@@ -19,11 +19,4 @@ namespace CsharpPoker
         public override string ToString() => $"{Value} of {Suit}";
     }
     
-    public enum CardSuit
-    {
-        Spades,
-        Diamonds,
-        Clubs,
-        Hearts
-    }
 }
